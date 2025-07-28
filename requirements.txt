@@ -1,0 +1,8 @@
+Libraries to install:
+
+numpy
+pandas
+matplotlib
+os
+sklearn
+keras
