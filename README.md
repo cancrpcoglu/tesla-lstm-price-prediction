@@ -39,7 +39,7 @@ Time-based train/test split was applied to preserve the sequence of the data.
 
 7-)Author
 Can Çorapçıoğlu — Final year Computer Engineering student at Atılım University
-E-Mail: [Mail](cancorapcioglu1@gmail.com)
+E-Mail: cancorapcioglu1@gmail.com
 LinkedIn: [LinkedIn](https://www.linkedin.com/in/can-%C3%A7orap%C3%A7%C4%B1o%C4%9Flu-15a340247/)
 
 This model is based on features in the TSLA.csv dataset, with labels for open values and close values used for 70% training and 30% validation. After training, the model predicts prices for the next three months.
