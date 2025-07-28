@@ -1,5 +1,5 @@
-# tesla-lstm-price-prediction
-Tesla stock price prediction using LSTM
+# tesla-rnn-price-prediction
+Tesla stock price prediction using RNN
 
 1-) This project uses historical stock data of Tesla (TSLA) to predict future prices using an LSTM (Long Short-Term Memory) deep learning model
 
@@ -8,7 +8,7 @@ Dataset: TSLA.csv
 
 3-) Goal: Predict future stock prices by learning temporal patterns in the data
 
-Model Used: LSTM — a type of Recurrent Neural Network (RNN) well-suited for time series forecasting
+Model Used: Recurrent Neural Network (RNN)
 
 4-) Libraries Used
 -pandas
@@ -21,14 +21,14 @@ Model Used: LSTM — a type of Recurrent Neural Network (RNN) well-suited for ti
 
   1-) Clone the repository:
 
-  git clone https://github.com/yourusername/tesla-lstm-stock-prediction.git
+  git clone https://github.com/yourusername/tesla-rnn-stock-prediction.git
   cd tesla-lstm-stock-prediction
 
   2-) Install the required libraries:
 
 
   pip install -r requirements.txt
-  3-) Open and run lstm_model.ipynb in Jupyter Notebook.
+  3-) Open and run rnn_model.ipynb in Jupyter Notebook.
 
 6-)Notes
 The dataset was normalized before training and inverse-transformed after prediction.
