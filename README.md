@@ -14,7 +14,7 @@ This project focuses on predicting Tesla Inc. stock prices using historical data
 
 ## 🗂️ Dataset
 
-- Source: [Kaggle - Tesla Stock Dataset]([https://www.kaggle.com/](https://www.kaggle.com/code/serkanp/tesla-stock-price-prediction)
+- Source: [Kaggle - Tesla Stock Dataset](https://www.kaggle.com/code/serkanp/tesla-stock-price-prediction)
 - Features used: `Open`, `High`, `Low`, `Close`, `Volume`
 - 70% of the dataset was used for training, 30% for testing
 
@@ -27,7 +27,7 @@ This project focuses on predicting Tesla Inc. stock prices using historical data
 
 ## 📊 Results
 
-- Achieved **87% accuracy** on the test dataset (replace with your actual result)
+- Achieved **79% accuracy** on the test dataset
 - Visualized performance metrics using `matplotlib`
 
 
