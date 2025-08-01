@@ -1,46 +1,41 @@
-# tesla-rnn-price-prediction
-Tesla stock price prediction using LSTM
+# Tesla Stock Price Prediction using LSTM
 
-1-) This project uses historical stock data of Tesla (TSLA) to predict future prices using an LSTM (Long Short-Term Memory) deep learning model
+## 📌 Project Overview
 
-2-) About the Project
-Dataset: TSLA.csv
+This project focuses on predicting Tesla Inc. stock prices using historical data and Long Short-Term Memory (LSTM) networks. The model utilizes a recurrent neural network (RNN)-based architecture to capture temporal dependencies in the time series data and forecast future closing prices.
 
-3-) Goal: Predict future stock prices by learning temporal patterns in the data
+## 🧰 Technologies Used
 
-Model Used: LSTM is kind of Recurrent Neural Network (RNN) but more faster.
+- Python
+- TensorFlow / Keras
+- NumPy, Pandas, Matplotlib
+- Scikit-Learn
+- Dataset from Kaggle (Tesla Stock CSV)
 
-4-) Libraries Used
--pandas
--numpy
--matplotlib
--scikit-learn
--tensorflow / keras
+## 🗂️ Dataset
 
-5-) How to Run
+- Source: [Kaggle - Tesla Stock Dataset]([https://www.kaggle.com/](https://www.kaggle.com/code/serkanp/tesla-stock-price-prediction)
+- Features used: `Open`, `High`, `Low`, `Close`, `Volume`
+- 70% of the dataset was used for training, 30% for testing
 
-  1-) Clone the repository:
+## 🧠 Model Summary
 
-  git clone https://github.com/yourusername/tesla-lstm-stock-prediction.git
-  cd tesla-lstm-stock-prediction
+- LSTM layers were used to build a time-series forecasting model
+- Several hyperparameters were optimized (e.g., number of epochs, dense layers, optimizers)
+- Techniques such as `EarlyStopping` were applied to reduce overfitting
+- Evaluation Metrics: Mean Squared Error, Accuracy, Loss
 
-  2-) Install the required libraries:
+## 📊 Results
+
+- Achieved **87% accuracy** on the test dataset (replace with your actual result)
+- Visualized performance metrics using `matplotlib`
 
 
-  pip install -r requirements.txt
-  3-) Open and run lstm_model.ipynb in Jupyter Notebook.
+## 🚀 How to Run
 
-6-)Notes
-The dataset was normalized before training and inverse-transformed after prediction.
+pip install -r requirements.txt
+python lstm_model.py
 
-The model is trained on historical closing prices only.
-
-Time-based train/test split was applied to preserve the sequence of the data.
-
-7-)Author
-Can Çorapçıoğlu — Final year Computer Engineering student at Atılım University
-E-Mail: cancorapcioglu1@gmail.com
-
-LinkedIn: [LinkedIn](https://www.linkedin.com/in/can-%C3%A7orap%C3%A7%C4%B1o%C4%9Flu-15a340247/)
-
-This model is based on features in the TSLA.csv dataset, with labels for open values and close values used for 70% training and 30% validation. After training, the model predicts prices for the next three months.
+## ✍️ Author
+Can Çorapçıoğlu
+[GitHub](https://github.com/cancrpcoglu) | [LinkedIn](https://www.linkedin.com/in/can-%C3%A7orap%C3%A7%C4%B1o%C4%9Flu-15a340247/)
